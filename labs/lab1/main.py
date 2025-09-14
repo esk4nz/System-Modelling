@@ -1,1 +1,1 @@
-print("Hello World")
+print("The beginning of the first lab")
