@@ -78,7 +78,7 @@ def chi_square_test_norm(x, a, sigma, k=20, alpha=0.05):
     return chi_stat, chi_crit, df, p_value, decision, k_eff
 
 if __name__ == "__main__":
-    n = 10_000
+    n = 1000
     params = [(0.0, 1.0), (2.0, 0.5), (-1.0, 2.0)]  # (a, sigma) різні варіанти
     BINS = 40
     SHOW_THEORETICAL = True

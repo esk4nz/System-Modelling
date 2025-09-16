@@ -67,7 +67,7 @@ def chi_square_test_uniform(x, k=20, alpha=0.05):
     return chi_stat, chi_crit, df, p_value, decision, k_eff
 
 if __name__ == "__main__":
-    n = 10_000
+    n = 1000
     params = [
         {"a": 5**13, "c": 2**31, "z0": 1},
         {"a": 7**5, "c": 2**31-1, "z0": 12345},
