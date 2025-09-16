@@ -96,7 +96,7 @@ def chi_square_test_exp_equal_prob(x, lam, k=20, alpha=0.05):
 
 
 if __name__ == "__main__":
-    n = 10_000
+    n = 1000
     lambdas = [0.5, 1.0, 2.0]
     BINS = 40
     SHOW_THEORETICAL = True
