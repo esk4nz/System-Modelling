@@ -56,7 +56,7 @@ if __name__ == "__main__":
     n = 1000
     params = [
         {"a": 5**13, "c": 2**31},
-        {"a": 7**5, "c": 2**31-1},
+        {"a": 5**7,  "c": 2**29},
         {"a": 3**10, "c": 2**30}
     ]
     BINS = 40
@@ -105,7 +105,7 @@ if __name__ == "__main__":
 
         if SHOW_THEORETICAL:
             xs = np.linspace(0, 1, 400)
-            pdf = np.ones_like(xs)  # рівномірний pdf на [0,1)
+            pdf = np.ones_like(xs)
             plt.plot(xs, pdf, "r-", lw=2, label="Теоретична щільність U(0,1)")
             plt.xlim(0, 1)
 
